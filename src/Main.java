@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.print("test");
+        GameManager game = new GameManager();
+        game.run();
     }
 }
